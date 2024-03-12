@@ -14,3 +14,12 @@ gazebo
 # then
 #gzclient
 ```
+
+Build plugin
+```
+# only once
+cmake -B build -S .
+# rebuild
+cmake --build build
+```
+
