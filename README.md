@@ -23,3 +23,8 @@ cmake -B build -S .
 cmake --build build
 ```
 
+Add custom plugin into path
+```
+export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:/home/ubuntu/hello_gazebo_world/build
+```
+
